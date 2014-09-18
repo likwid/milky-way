@@ -1,0 +1,28 @@
+{
+  "name": "Milky Way",
+  "version": "0.0.1",
+  "homepage": "https://github.com/likwid/milky-way",
+  "authors": [
+    "Jeff Gonzalez <likwid at gmail dot com>"
+  ],
+  "description": "Angular.js learning application",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.2.21",
+    "angular": "~1.2.21",
+    "d3": "~3.4.11",
+    "semantic-ui": "*",
+    "lodash": "2.x"
+  }
+}

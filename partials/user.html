@@ -1,0 +1,29 @@
+<div class="ui one column page grid">
+  <div class="ui column" ng-switch="currentView">
+    <h1>{{ vm.username }}</h1>
+    <div class="ui menu">
+      <a class="item" ng-click="showStarred()">Star List</a>
+      <a class="item" ng-click="showStatistics()">Statistics</a>
+    </div>
+    <div class="ui segment" ng-switch-when="starred">
+      <div class="ui segment" ng-if="!hasResults()">No stars found.</div>
+      <table class="ui table" ng-if="hasResults()">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Language</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="result in vm.results">
+            <td><a href="http://github.com/{{ result.full_name }}">{{ result.full_name }}</a></td>
+            <td>{{ result.language }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="ui segment" ng-switch-when="statistics">
+      Stats
+    </div>
+  </div>
+</div>
