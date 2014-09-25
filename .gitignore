@@ -1,4 +1,3 @@
 bower_components/
 npm-debug.log
-build/
-build-min/
+cljs/resources/
