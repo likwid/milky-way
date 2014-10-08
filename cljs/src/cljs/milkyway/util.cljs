@@ -6,10 +6,10 @@
   (if (map? v) (keywordize v) v))
 
 (defn- keywordize [m]
-    (zipmap (map keyword (keys m)) (map keywordize-val (vals m))))
+  (zipmap (map keyword (keys m)) (map keywordize-val (vals m))))
 
-(def obj->map (comp keywordize cljs.core/js->clj))
+(def obj->map (comp keywordize js->clj))
 
 (defn vm-cycle [$scope f]
-    (let [vm (js->clj (aget $scope "vm"))]
-        (aset $scope "vm" (clj->js (conj vm (f vm))))))
+  (let [vm (obj->map (aget $scope "vm"))]
+    (aset $scope "vm" (clj->js (conj vm (f vm))))))

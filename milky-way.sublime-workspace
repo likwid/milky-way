@@ -1,0 +1,1180 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get-direc",
+				"get-direct-ambassadors"
+			],
+			[
+				"get-direct",
+				"get-directors-at-gen"
+			],
+			[
+				"qual",
+				"qualified"
+			],
+			[
+				"process-cypher",
+				"process-cypher-row"
+			],
+			[
+				"email",
+				"emailed_at"
+			],
+			[
+				"noi",
+				"noinviteCondition"
+			],
+			[
+				"line-item",
+				"line-item-matches-type"
+			],
+			[
+				"discov",
+				"discovery-level"
+			],
+			[
+				"cons",
+				"consList"
+			],
+			[
+				"hyper",
+				"hyperlink"
+			],
+			[
+				"hyperLink",
+				"hyperlinkPayloader"
+			],
+			[
+				"linkBase",
+				"linkBaseIsFunc"
+			],
+			[
+				"require",
+				"requiresSelfLink"
+			],
+			[
+				"spec",
+				"specWithDefaults"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"findNo",
+				"findNodeById"
+			],
+			[
+				"con",
+				"consList"
+			],
+			[
+				"comm",
+				"commissionsRunning"
+			],
+			[
+				"commi",
+				"commissionsRunning"
+			],
+			[
+				"adjust",
+				"adjustRange"
+			],
+			[
+				"route",
+				"routeParams"
+			],
+			[
+				"search",
+				"searchBySponsor"
+			],
+			[
+				"norm",
+				"normalizedText"
+			],
+			[
+				"consul",
+				"consultantList"
+			],
+			[
+				"consult",
+				"consultant"
+			],
+			[
+				"list",
+				"listEndpoint"
+			],
+			[
+				"partial",
+				"partialRight"
+			],
+			[
+				"timedEx",
+				"timedExpiryPolicy"
+			],
+			[
+				"tran",
+				"translateTable"
+			],
+			[
+				"cypher",
+				"cypherWithTransform"
+			],
+			[
+				"disco",
+				"discoveryTree"
+			],
+			[
+				"resol",
+				"resolveDiscovery"
+			],
+			[
+				"discover",
+				"discoveryTop"
+			],
+			[
+				"reduce",
+				"reduceTree"
+			],
+			[
+				"gross",
+				"grossSales"
+			],
+			[
+				"total",
+				"totalCommissions"
+			],
+			[
+				"gr",
+				"grossCommissions"
+			],
+			[
+				"with",
+				"withCommissions"
+			],
+			[
+				"cal",
+				"calcComms"
+			],
+			[
+				"cla",
+				"classCons"
+			],
+			[
+				"firs",
+				"firstLevelBv"
+			],
+			[
+				"getd",
+				"getDBVSearch"
+			],
+			[
+				"getDB",
+				"getDBVSearch"
+			],
+			[
+				"is",
+				"isDirectorOrHigher"
+			],
+			[
+				"getOr",
+				"getOrgVolume"
+			],
+			[
+				"getTeam",
+				"getTeamVolume"
+			],
+			[
+				"order",
+				"orderStream"
+			],
+			[
+				"attach",
+				"attachOrdersToConsultant"
+			],
+			[
+				"get",
+				"getBody"
+			],
+			[
+				"line",
+				"lineItems"
+			],
+			[
+				"wine",
+				"wineClub"
+			],
+			[
+				"cyp",
+				"cypherEndpoint"
+			],
+			[
+				"cre",
+				"createOrderRels"
+			],
+			[
+				"create",
+				"createPlacedByRel"
+			],
+			[
+				"place",
+				"placeOrdersAgainstRef"
+			],
+			[
+				"crea",
+				"createOrderRels"
+			],
+			[
+				"or",
+				"orderPromises"
+			],
+			[
+				"Order",
+				"OrderStream"
+			],
+			[
+				"child",
+				"childrenToGCV"
+			],
+			[
+				"add",
+				"addCookiesToRequest"
+			],
+			[
+				"req",
+				"reqCookie"
+			],
+			[
+				"getTogg",
+				"getToggleOff"
+			],
+			[
+				"gsa",
+				"gsati-toggles"
+			],
+			[
+				"query",
+				"queryConsultantList"
+			],
+			[
+				"senio",
+				"seniorExecutive"
+			],
+			[
+				"make",
+				"makeChildren"
+			],
+			[
+				"sub",
+				"subscription_plan"
+			],
+			[
+				"subcr",
+				"Subscription"
+			],
+			[
+				"activate",
+				"activateAnnualButton"
+			],
+			[
+				"change",
+				"changePeriod"
+			],
+			[
+				"subscription",
+				"subscription_plan"
+			],
+			[
+				"limi",
+				"limitLessThan"
+			],
+			[
+				"pr",
+				"property"
+			],
+			[
+				"can",
+				"can_administrate_self"
+			],
+			[
+				"remove",
+				"removeConfirmationMessage"
+			],
+			[
+				"organ",
+				"organizations"
+			],
+			[
+				"condition",
+				"conditionActiveUsers"
+			],
+			[
+				"condi",
+				"conditionPendingUser"
+			],
+			[
+				"invite",
+				"invitePromisesFromOrgs"
+			],
+			[
+				"conditionPend",
+				"conditionPendingUsers"
+			],
+			[
+				"orgWith",
+				"orgWithActive"
+			],
+			[
+				"conditi",
+				"conditionServerOrg"
+			],
+			[
+				"trans",
+				"transferConfirmationMessage"
+			],
+			[
+				"delete",
+				"deleteConfirmationMessage"
+			],
+			[
+				"ret",
+				"retoggleOrgFromOld"
+			],
+			[
+				"toggle",
+				"toggleOrganization"
+			],
+			[
+				"init",
+				"initializeVM"
+			],
+			[
+				"selec",
+				"selectOwnedOrgs"
+			],
+			[
+				"org",
+				"organizations"
+			],
+			[
+				"Play",
+				"PlayDeps"
+			],
+			[
+				"angular",
+				"angularDeps"
+			],
+			[
+				"rout",
+				"routeParams"
+			],
+			[
+				"Schedule",
+				"ScheduleAPI"
+			],
+			[
+				"sched",
+				"schedScope"
+			],
+			[
+				"credit",
+				"creditScope"
+			],
+			[
+				"sche",
+				"schedOffMeansFalse"
+			],
+			[
+				"multiStep",
+				"multiStepStateIs"
+			],
+			[
+				"currn",
+				"currentBalanceIs"
+			],
+			[
+				"usesC",
+				"usesCreditsIs"
+			],
+			[
+				"uses",
+				"usesCreditsIs"
+			],
+			[
+				"currentB",
+				"currentBalanceIs"
+			],
+			[
+				"useCr",
+				"usesCreditsIs"
+			],
+			[
+				"multiSte",
+				"multiStepStateIs"
+			],
+			[
+				"schedul",
+				"schedulerIs"
+			],
+			[
+				"scheduler",
+				"schedulerActive"
+			],
+			[
+				"multi",
+				"multiStepActive"
+			],
+			[
+				"objec",
+				"objectLens"
+			],
+			[
+				"usesCre",
+				"usesCredits"
+			],
+			[
+				"form_multi",
+				"form_multistep"
+			],
+			[
+				"curren",
+				"currentBalance"
+			],
+			[
+				"rev",
+				"revFuncs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "clojure.html",
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js.html",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/controllers/user.js",
+			"settings":
+			{
+				"buffer_size": 934,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cljs/src/cljs/milkyway/controllers/default.cljs",
+			"settings":
+			{
+				"buffer_size": 370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/controllers/default.js",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sspla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sstext",
+				"Set Syntax: Textile"
+			],
+			[
+				"ssru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"ip ",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 232.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/cljs",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/cljs/doc",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/cljs/src",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/cljs/src/cljs",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/cljs/src/cljs/milkyway",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/cljs/src/cljs/milkyway/controllers",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/scripts",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/milky-way/scripts/controllers"
+	],
+	"file_history":
+	[
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/fortuna/disc.js",
+		"/Users/bkeown/Desktop/most important query",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/mach/modules/Request.js",
+		"/Users/bkeown/Desktop/untitled.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/bower_components/jquery/src/selector-sizzle.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/subprocess.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/fortuna/project.clj",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/hypermedia.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/distributor.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/processes/commissions.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/Dockerfile",
+		"/Users/bkeown/.ssh/config",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/devops/deploy.yml",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/fortuna/src/fortuna/core.clj",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/neo4j.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/neo4j/discovery.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/fortuna/src/fortuna/discovery.clj",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/fortuna/src/fortuna/cypher.clj",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/scripts/controllers/consultant.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/consultant.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/neo4jtree.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/config.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/devops/development.yml",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/order/order.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/hypermedia.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/consultant/consultant.db.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/consultant/consultant.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/Dockerfile",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/main.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/scripts/controllers/details.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/cors.nginx",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/nginx.conf",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/consultant/spec/consultant.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/uri.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/uri.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/gsati-ui",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/bower.json",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/scripts/core.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/package.json",
+		"/usr/local/Cellar/neo4j/2.1.2/bin/neo4j",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/cors.include",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/consultant/spec/consultant.db.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/partials/details.html",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/Gruntfile.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/Dockerfile.nginx",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/devops/gsati-ui",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/index.html",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/partials/consultant.html",
+		"/Users/bkeown/Dropbox/code/influx.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/styles/core.css",
+		"/Users/bkeown/influx.js",
+		"/Users/bkeown/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/flare.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/d3.html",
+		"/usr/local/etc/nginx/nginx.conf",
+		"/usr/local/etc/openresty/nginx.conf",
+		"/Users/bkeown/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/.gitignore",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/ui/scripts",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/neo4j/cypher.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/neo4j/spec/cypher.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/neo4j/spec/discovery.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/cache.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/cache.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/common.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/common.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/node_modules/cheerio/node_modules/CSSselect/browser_functions.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt-jasmine-node-coverage/node_modules/istanbul/test/other/data-complete-copy/foo.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt-jasmine-node-coverage/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/mach/modules/utils/qualityFactorForMediaValue.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/q/benchmark/compare-with-callbacks.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/coverage/lcov-report/gsati-core/config.js.html",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt-jasmine-node-coverage/node_modules/istanbul/node_modules/escodegen/node_modules/source-map/build/prefix-utils.jsm",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/request/node_modules/tough-cookie/public-suffix.txt",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/public/livereload.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/invmain.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/order_neo4j.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/consultant.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/response.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/monad.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/spec/toggle.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/promisebuilder.js",
+		"/Users/bkeown/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bkeown/.zshrc",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/inv.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/csv.hs",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/data.csv",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/names.txt",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/helloworld.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/flatcouch.json",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/data2.csv",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/project.clj",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/treebuild.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/ambassador.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/csv.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/sales.js",
+		"/Users/bkeown/Desktop/consultant_dump.json",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/consultant.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spec/lib/consultant.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/toggle.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spec/lib/toggle.spec.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/Vagrantfile",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/lib/monad.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/treegen.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/package.json",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/node_modules/mach/node_modules/then-redis/node_modules/hiredis/COPYING",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/node_modules/mach/node_modules/rsvp/dist/commonjs/rsvp/instrument.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt-jasmine-node-coverage/node_modules/istanbul/node_modules/handlebars/lib/handlebars/compiler/printer.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt/node_modules/glob/test/pause-resume.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt/internal-tasks/subgrunt.js",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/node_modules/grunt-jasmine-node-coverage/node_modules/istanbul/node_modules/escodegen/node_modules/source-map/build/suffix-utils.jsm",
+		"/Users/bkeown/Dropbox/code/github.com/likwid/gsati-core/spikes/treebuild.py",
+		"/Users/bkeown/Dropbox/code/treegen.py",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/public/js/controllers/billing/pricing.js",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/public/partials/pricing/setup.html",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/lib/routes/pricing.rb",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/views/pricing_subscription.haml",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/public/js/controllers/public/pricing.js",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/public/js/directives/pricing-slider.js",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/public/js/func/blitz/fcore.blitz.pricing.js",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/lib/routes/pages.rb",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/lib/couch_setup/subscription_history.rb",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/spec/fixtures/subscription2.json",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/spec/fixtures/subscription.json",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/node_modules/karma/node_modules/source-map/build/suffix-utils.jsm",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/public/urllist.txt",
+		"/Users/bkeown/Dropbox/code/github.com/blitz.io/blitz-app/node_modules/grunt-npm-install/node_modules/npm/test/tap/uninstall-package.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 114.0,
+		"where_history":
+		[
+			"public/js",
+			"",
+			"*.haml",
+			"",
+			"public/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"\"]]",
+			"oldChildren",
+			"'",
+			"\\r\\n\\r\\n",
+			"\\n\\n",
+			"regions",
+			"regions_obj",
+			"ñ",
+			"’",
+			"jquery.min.js",
+			"fcore",
+			"toggle-buttons",
+			"id=\"subscriptions\"",
+			"PricingSetupController",
+			"'",
+			"ng-switch",
+			"Subscription.unsubscribe",
+			"\"Pricing\"",
+			"Pricing",
+			"/pricing",
+			"/to#/pricing",
+			"/to#pricing",
+			"#pricing",
+			"upgrade",
+			"can_admi",
+			"memberDropdown",
+			"class=\"dropdown",
+			"peices",
+			"credit_display",
+			"<nav>",
+			"scope.toggle_status",
+			"active_tab.subs",
+			"class=\"message",
+			"class=\"message\"",
+			"countries.html",
+			"bind",
+			"\"),\n",
+			"organizations",
+			"'",
+			"hipchat_notify",
+			"timeBlock",
+			"play_state",
+			"is_recurring_active",
+			"subscription",
+			"attrs.ngModel",
+			"--delay"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"",
+			"hiddenChildren",
+			"\"",
+			"\\n",
+			"n",
+			"'",
+			"\"",
+			"pieces",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "clojure.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1102,
+								1102
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scripts/controllers/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 934,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								702,
+								702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cljs/src/cljs/milkyway/controllers/default.cljs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Clojure/Clojure.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scripts/controllers/default.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 190.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "milky-way.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pricing",
+				"lib/routes/pricing.rb"
+			],
+			[
+				"subscription",
+				"views/pricing_subscription.haml"
+			],
+			[
+				"setup.html",
+				"public/partials/pricing/setup.html"
+			],
+			[
+				"pricing.rb",
+				"lib/routes/pricing.rb"
+			],
+			[
+				"pages.",
+				"lib/routes/pages.rb"
+			],
+			[
+				"pricing.",
+				"lib/routes/pricing.rb"
+			],
+			[
+				"recur",
+				"public/js/controllers/play/recurring_scheduler.js"
+			],
+			[
+				"schedule",
+				"public/partials/play/scheduler.html"
+			],
+			[
+				"multi",
+				"public/partials/play/multi_region.html"
+			],
+			[
+				"test_",
+				"public/partials/play/test_parameters.html"
+			],
+			[
+				"layou",
+				"views/layout.haml"
+			],
+			[
+				"to_",
+				"views/to_layout.haml"
+			],
+			[
+				"setup.js",
+				"public/js/controllers/settings/setup.js"
+			],
+			[
+				"org",
+				"lib/routes/organization.rb"
+			],
+			[
+				"organi",
+				"lib/routes/organization.rb"
+			],
+			[
+				"organization.js",
+				"public/js/controllers/settings/organization.js"
+			],
+			[
+				"base.",
+				"lib/blitz/base.rb"
+			],
+			[
+				"or",
+				"lib/routes/organization.rb"
+			],
+			[
+				"orgn",
+				"lib/models/organization.rb"
+			],
+			[
+				"api.rb",
+				"lib/routes/api.rb"
+			],
+			[
+				"layout.h",
+				"views/layout.haml"
+			],
+			[
+				"hipchat",
+				"lib/task/hipchat_notify.rb"
+			],
+			[
+				"task.r",
+				"lib/routes/task.rb"
+			],
+			[
+				"pages",
+				"lib/routes/pages.rb"
+			],
+			[
+				"play.",
+				"public/js/controllers/play/play.js"
+			],
+			[
+				"pages.r",
+				"lib/routes/pages.rb"
+			],
+			[
+				"only_num",
+				"public/js/directives/only_numbers.js"
+			],
+			[
+				"only",
+				"public/js/directives/only_digits.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"blit",
+				"~/s/blitz-app.sublime-project"
+			],
+			[
+				"",
+				"~/s/blitz-app.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Pricing",
+				"Pricing"
+			],
+			[
+				"isPLayBut",
+				"isPlayButtonEnabled"
+			],
+			[
+				"conditionPending",
+				"conditionPendingUsers"
+			]
+		],
+		"width": 863.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

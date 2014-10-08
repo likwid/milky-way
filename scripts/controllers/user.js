@@ -13,20 +13,16 @@
             requestCompleted: false
         };
 
-        $scope.hasResults = function() {
+        $scope.hasResults = function () {
             return !_.isEmpty($scope.vm.results);
         };
 
-        $scope.showStarred = function() {
-            $scope.currentView = "starred";
-        };
-
-        $scope.showStatistics = function() {
-            $scope.currentView = "statistics";
+        $scope.showPanel = function (which) {
+            $scope.currentView = which;
         };
 
         $http.get(ghApiUri($routeParams))
-            .success(function (response, status, headers) {
+            .success(function (response) {
                 $scope.vm.results = response;
                 $scope.vm.requestCompleted = true;
             });
