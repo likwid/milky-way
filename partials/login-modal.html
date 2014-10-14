@@ -1,11 +1,11 @@
 <div class="ui small modal">
   <div class="ui segment">
-    <form class="ui form" ng-submit="submitUser()">
+    <div class="ui form">
       <div class="field">
         <label>Github Username</label>
-        <input type="text" ng-model="vm.ghName">
+        <input type="text" name="test" ng-model="vm.ghName">
       </div>
-      <input type="submit" class="ui teal submit floated right small button" value="Submit" />
-    </form>
+      <button class="ui teal submit floated right small button" ng-click="submitUser()">Submit</button>
+    </div>
   </div>
 </div>

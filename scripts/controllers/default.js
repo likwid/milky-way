@@ -1,35 +1,47 @@
 /*global
     angular: true,
-    _: true
+    _: true,
+    bilby: true,
+    R: true
 */
 (function () {
     "use strict";
-    var deps = ["$scope", "$http"],
+    var deps = ["$scope", "$http", "$routeParams", "$location"],
         ghApiUri = _.template("https://api.github.com/users/${username}/starred?per_page=100");
-    function Controller($scope, $http) {
-        $scope.vm = {
-            user: null,
-            results: [],
-            requestCompleted: false
-        };
+    function Controller($scope, $http, $routeParams, $location) {
+        $scope.R = R;
+        var hasUser = R.identity,
+            noUser = R.alwaysTrue;
 
-        $scope.hasResults = function () {
-            return !_.isEmpty($scope.vm.results);
-        };
+        function updateUser(user) {
+            $http.get(ghApiUri({username: user}))
+                .success(function (response) {
+                    $scope.vm = $scope.vm
+                        .property("results", response)
+                        .property("currentView", "starred");
+                });
+        }
 
-        $scope.showPanel = function (which) {
-            $scope.currentView = which;
-        };
+        /*jslint unparam:true*/
+        function userSelect($e, user) {
+            $location.path("/user/" + user);
+        }
+        /*jslint unparam:false*/
 
-        $scope.$watch("vm.user", function (val) {
-            if (val) {
-                $http.get(ghApiUri({username: val}))
-                    .success(function (response) {
-                        $scope.vm.results = response;
-                        $scope.vm.requestCompleted = true;
-                    });
-            }
-        });
+        $scope.vm = bilby.environment()
+            .property("user", $routeParams.user)
+            .property("currentView", null)
+            .property("results", null)
+            .property("hasResults", false)
+            .property("showPanel", function (which) {
+                $scope.vm = $scope.vm
+                    .property("currentView", which);
+            })
+            .method("userWatch", hasUser, updateUser)
+            .method("userWatch", noUser, _.noop);
+
+        $scope.$watch("vm.user", $scope.vm.userWatch);
+        $scope.$on("user-select", userSelect);
 
     }
     angular

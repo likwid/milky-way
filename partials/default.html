@@ -1,23 +1,33 @@
 <div class="ui one column page grid">
-  <div class="ui column" ng-switch="currentView">
+  <div class="ui column" ng-switch="vm.currentView">
     <h1>{{ vm.user }}</h1>
     <div class="ui menu">
-      <a class="item" ng-click="showPanel('starred')">Star List</a>
-      <a class="item" ng-click="showPanel('statistics')">Statistics</a>
+      <a class="item" ng-click="vm.showPanel('starred')">Star List</a>
+      <a class="item" ng-click="vm.showPanel('statistics')">Statistics</a>
     </div>
     <div class="ui segment" ng-switch-when="starred">
-      <div class="ui segment" ng-if="!hasResults()">No stars found.</div>
-      <table class="ui table" ng-if="hasResults()">
+      <div class="ui segment" ng-if="R.isEmpty(vm.results)">No stars found.</div>
+      <table class="ui table" ng-if="!R.isEmpty(vm.results)">
         <thead>
           <tr>
             <th>Name</th>
-            <th>Language</th>
+            <th class="two wide">Watchers</th>
+            <th class="two wide">Issues</th>
+            <th class="two wide">Statistics</th>
           </tr>
         </thead>
         <tbody>
           <tr ng-repeat="result in vm.results">
             <td><a href="http://github.com/{{ result.full_name }}">{{ result.full_name }}</a></td>
-            <td>{{ result.language || "None" }}</td>
+            <td>
+              <div class="ui teal label"><i class="large icon star"></i> 22</div>
+            </td>
+            <td>
+              <div class="ui teal label"><i class="large icon info"></i> 22</div>
+            </td>
+            <td>
+              <div class="ui teal label"><i class="large icon tasks"></i></div>
+            </td>
           </tr>
         </tbody>
       </table>

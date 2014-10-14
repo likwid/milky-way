@@ -9,16 +9,13 @@
         .module("milkyWay", ["ngRoute"])
         .config(["$routeProvider", function ($routeProvider) {
             $routeProvider
-                .when("/", {
+                .when("/user/:user?", {
+                    controller: "DefaultController",
                     templateUrl: "partials/default.html",
-                    controller: "DefaultController"
-                })
-                .when("/user/:username", {
-                    templateUrl: "partials/user.html",
-                    controller: "UserController"
+                    reloadOnSearch: false
                 })
                 .otherwise({
-                    redirectTo: "/"
+                    redirectTo: "/user/"
                 });
         }]);
 }());

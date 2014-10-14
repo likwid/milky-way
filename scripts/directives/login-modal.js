@@ -1,6 +1,7 @@
 /*global
     angular: true,
-    _: true
+    _: true,
+    R: true
 */
 
 (function () {
@@ -21,13 +22,13 @@
             }
 
             $scope.submitUser = function () {
-                $scope.user = $scope.vm.ghName;
                 elem.modal("hide");
+                $scope.$emit("user-select", $scope.vm.ghName);
             };
         }
     };
 
     angular
         .module("milkyWay")
-        .directive("loginModal", _.constant(directive));
+        .directive("loginModal", R.always(directive));
 }());
