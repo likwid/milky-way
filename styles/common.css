@@ -2,3 +2,17 @@ body {
     background-color: #cdcdcd;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
 }
+
+div.progress-segment {
+    float: left;
+    height: 50px;
+    text-align: center;
+}
+
+div.progress-segment .label {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.75em;
+    font-weight: bold;
+}

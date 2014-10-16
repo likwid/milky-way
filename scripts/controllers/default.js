@@ -37,6 +37,9 @@
                 $scope.vm = $scope.vm
                     .property("currentView", which);
             })
+            .property("showStats", function (uri) {
+                $scope.$broadcast("show-stats", uri);
+            })
             .method("userWatch", hasUser, updateUser)
             .method("userWatch", noUser, _.noop);
 

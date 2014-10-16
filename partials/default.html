@@ -13,20 +13,26 @@
             <th>Name</th>
             <th class="two wide">Watchers</th>
             <th class="two wide">Issues</th>
-            <th class="two wide">Statistics</th>
+            <th class="two wide"></th>
           </tr>
         </thead>
         <tbody>
           <tr ng-repeat="result in vm.results">
             <td><a href="http://github.com/{{ result.full_name }}">{{ result.full_name }}</a></td>
             <td>
-              <div class="ui teal label"><i class="large icon star"></i> 22</div>
+              <div class="ui right aligned red segment">
+                <div class="ui left red corner label"><i class="star icon"></i></div>
+                <span>{{result.stargazers_count}}</span>
+              </div>
             </td>
             <td>
-              <div class="ui teal label"><i class="large icon info"></i> 22</div>
+              <div class="ui right aligned blue segment">
+                <div class="ui left blue corner label"><i class="info icon"></i></div>
+                <span>{{result.open_issues_count}}</span>
+              </div>
             </td>
             <td>
-              <div class="ui teal label"><i class="large icon tasks"></i></div>
+              <button class="ui small labeled green icon button" ng-click="vm.showStats(result.languages_url)"><i class="icon tasks"></i>Stats</button>
             </td>
           </tr>
         </tbody>
@@ -38,3 +44,4 @@
   </div>
 </div>
 <login-modal user="vm.user"></login-modal>
+<stats-modal></stats-modal>
