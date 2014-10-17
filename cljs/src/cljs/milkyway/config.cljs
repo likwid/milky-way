@@ -2,16 +2,12 @@
   (:require-macros [clojangular.angular :as ng]))
 
 (def ^:private specs [{
-  :route "/"
+  :route "/user/:user?"
   :templateUrl "partials/default.html"
   :controller "DefaultController"
 }{
-  :route "/user/:username"
-  :templateUrl "partials/user.html"
-  :controller "UserController"
-}{
   :route :default
-  :redirectTo "/"
+  :redirectTo "/user/"
 }])
 
 (defn- assignRoute [provider route spec]

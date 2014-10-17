@@ -8,9 +8,9 @@
 (function () {
     "use strict";
 
-    var deps = ["$http", "$q", "asyncCache", "languageColors"];
+    var deps = ["$http", "$q", "asyncCache"];
 
-    function Directive($http, $q, asyncCache, languageColors) {
+    function Directive($http, $q, asyncCache) {
         function uriAsPromise(res) {
             var df = $q.defer();
             $http.get(res)
@@ -44,39 +44,51 @@
                                     .select(".legend")
                                     .selectAll("td")
                                     .remove();
-                            }
+                            },
+                            duration: 250
                         })
                         .modal("show");
                     return data;
                 }
 
-                function backgroundColor(d) {
-                    return languageColors[d[0]] || "#aaaaaa";
+                function getColors(data) {
+                    return asyncCache
+                            .get("github-colors.json")
+                            .then(R.rPartial(firstTimeCachedUri, "github-colors.json"))
+                            .then(function (colors) { return [colors, data]; });
                 }
 
-                function textColor(d) {
+                function backgroundColor(colors, d) {
+                    return colors[d[0]] || "#aaaaaa";
+                }
+
+                function textColor(colors, d) {
                     var rgbMatch = /#([0-9a-fA-F][0-9a-fA-F])([0-9a-fA-F][0-9a-fA-F])([0-9a-fA-F][0-9a-fA-F])/,
-                        colorStrings = rgbMatch.exec(backgroundColor(d)).slice(1, 4),
-                        colors = R.map(R.rPartial(parseInt, 16), colorStrings),
-                        percievedLuminance = 0.299 * colors[0] + 0.587 * colors[1] + 0.114 * colors[2];
+                        colorStrings = rgbMatch.exec(backgroundColor(colors, d)).slice(1, 4),
+                        channels = R.map(R.rPartial(parseInt, 16), colorStrings),
+                        percievedLuminance = 0.299 * channels[0] + 0.587 * channels[1] + 0.114 * channels[2];
+
+                    console.log(percievedLuminance);
 
                     return percievedLuminance < 128 ? "#FFF" : "#000";
                 }
 
-                function drawData(data) {
-                    var totalBytes = R.sum(R.values(data)),
-                        d3Data = _.sortBy(R.zip(R.keys(data), R.values(data)), function (d) { return d[1]; }).reverse(),
-                        legend = d3.select(elem[0])
-                                    .select(".legend")
-                                    .selectAll("td")
-                                    .data(d3Data),
+                function drawData(pass) {
+                    var languageColors = pass[0],
+                        totalBytes = R.sum(R.values(pass[1])),
+                        d3Data = R.sort(function (a, b) { return b[1] - a[1]; },
+                                        R.zip(R.keys(pass[1]), R.values(pass[1]))),
                         labelTemplate = _.template("${name} <span class=\"detail\">${perc}</span>"),
                         elements = d3.select(elem[0])
                                       .select(".spread")
                                       .selectAll("div.progress-segment")
-                                      .data(d3Data);
+                                      .data(d3Data),
+                        wrapWithColors = R.rPartial(R.lPartial, languageColors);
 
-                    legend
+                    d3.select(elem[0])
+                        .select(".legend")
+                        .selectAll("td")
+                        .data(d3Data)
                         .enter()
                         .append("td")
                         .append("span")
@@ -87,30 +99,29 @@
                                 perc: sizeAsPercent(totalBytes, d)
                             });
                         })
-                        .style("background", backgroundColor)
-                        .style("color", textColor);
+                        .style("background", wrapWithColors(backgroundColor))
+                        .style("color", wrapWithColors(textColor));
 
                     elements
                         .enter()
                         .append("div")
                         .style("width", "0%")
-                        .style("background", backgroundColor)
-                        .style("color", textColor)
+                        .style("background", wrapWithColors(backgroundColor))
                         .classed("progress-segment", true);
 
                     elements
                         .transition()
-                        .duration(1000)
+                        .duration(500)
                         .style("width", sizeAsPercent(totalBytes));
                 }
 
                 /*jslint unparam: true*/
                 $scope.$on("show-stats", function (e, langUri) {
-                    console.log(langUri);
                     asyncCache
                         .get(langUri)
                         .then(R.rPartial(firstTimeCachedUri, langUri))
                         .then(showModal)
+                        .then(getColors)
                         .then(drawData);
                 });
                 /*jslint unparam: false*/

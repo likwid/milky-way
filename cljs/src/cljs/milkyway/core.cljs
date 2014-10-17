@@ -4,7 +4,7 @@
 (defn main []
   (ng/module "milkyWay" ["ngRoute"]
     milkyway.config
-    milkyway.controllers.default
-    milkyway.controllers.user))
+    milkyway.directives.login-modal
+    milkyway.controllers.default))
 
 (main)

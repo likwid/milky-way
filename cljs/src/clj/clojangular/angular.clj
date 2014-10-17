@@ -15,15 +15,26 @@
 
 (def ^:private to-angular-deps (comp vec (partial map str)))
 
-(defmacro controller [controller args & forms]
+(defmacro controller [component args & forms]
   (let [angular-deps (to-angular-deps args)
-        controller-main `(defn ~'ng-controller [~@args] ~@forms)
-        mini-safe-decl (conj angular-deps 'ng-controller)]
+        component-main `(defn ~'ng-component [~@args] ~@forms)
+        mini-safe-decl (conj angular-deps 'ng-component)]
     `(do
-       ~controller-main
+       ~component-main
        (defn ~'ng-export [module#]
          (-> js/angular (.module module#)
-                        (.controller ~controller
+                        (.controller ~component
+                                     (cljs.core/clj->js ~mini-safe-decl)))))))
+
+(defmacro directive [component args & forms]
+  (let [angular-deps (to-angular-deps args)
+        component-main `(defn ~'ng-component [~@args] ~@forms)
+        mini-safe-decl (conj angular-deps 'ng-component)]
+    `(do
+       ~component-main
+       (defn ~'ng-export [module#]
+         (-> js/angular (.module module#)
+                        (.directive ~component
                                      (cljs.core/clj->js ~mini-safe-decl)))))))
 
 (defmacro config [args & forms]
