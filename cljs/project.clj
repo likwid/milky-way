@@ -1,7 +1,7 @@
 (defproject milkway "0.0.1"
   :description "FIXME: write description"
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2342"]]
+                 [org.clojure/clojurescript "0.0-2371"]]
   :plugins [[lein-cljsbuild "1.0.3"]]
   :source-paths ["src/clj"]
   :cljsbuild {:builds [

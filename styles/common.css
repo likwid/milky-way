@@ -16,3 +16,11 @@ div.progress-segment .label {
     font-size: 0.75em;
     font-weight: bold;
 }
+
+table.legend {
+    width: 100%;
+    margin-bottom: 20px;
+}
+    table.legend td {
+        text-align: center;
+    }

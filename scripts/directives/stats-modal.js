@@ -40,6 +40,10 @@
                                     .select(".spread")
                                     .selectAll("div.progress-segment")
                                     .remove();
+                                d3.select(elem[0])
+                                    .select(".legend")
+                                    .selectAll("td")
+                                    .remove();
                             }
                         })
                         .modal("show");
@@ -61,11 +65,30 @@
 
                 function drawData(data) {
                     var totalBytes = R.sum(R.values(data)),
-                        d3Data = R.zip(R.keys(data), R.values(data)),
+                        d3Data = _.sortBy(R.zip(R.keys(data), R.values(data)), function (d) { return d[1]; }).reverse(),
+                        legend = d3.select(elem[0])
+                                    .select(".legend")
+                                    .selectAll("td")
+                                    .data(d3Data),
+                        labelTemplate = _.template("${name} <span class=\"detail\">${perc}</span>"),
                         elements = d3.select(elem[0])
                                       .select(".spread")
                                       .selectAll("div.progress-segment")
                                       .data(d3Data);
+
+                    legend
+                        .enter()
+                        .append("td")
+                        .append("span")
+                        .classed({ui: true, label: true})
+                        .html(function (d) {
+                            return labelTemplate({
+                                name: d[0],
+                                perc: sizeAsPercent(totalBytes, d)
+                            });
+                        })
+                        .style("background", backgroundColor)
+                        .style("color", textColor);
 
                     elements
                         .enter()
@@ -73,18 +96,12 @@
                         .style("width", "0%")
                         .style("background", backgroundColor)
                         .style("color", textColor)
-                        .classed("progress-segment", true)
-                        .append("div")
-                        .classed("label", true)
-                        .style("display", "none")
-                        .html(function (d) { return d[0] + "<br />" + sizeAsPercent(totalBytes, d); });
+                        .classed("progress-segment", true);
 
                     elements
                         .transition()
                         .duration(1000)
-                        .style("width", sizeAsPercent(totalBytes))
-                        .select("div")
-                        .style("display", "block");
+                        .style("width", sizeAsPercent(totalBytes));
                 }
 
                 /*jslint unparam: true*/
