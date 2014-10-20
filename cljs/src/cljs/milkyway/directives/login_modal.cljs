@@ -12,3 +12,4 @@
                       (aset "submitUser" (fn [] (.modal elem "hide")
                                                 (.$emit $scope "user-select" (-> $scope (aget "vm") (aget "ghName"))))))
                     (if (not (aget $scope "user")) (.modal elem "show")))}))
+

@@ -24,4 +24,4 @@
                        "showPanel" (fn [which] (aset (aget $scope "vm") "currentView" which))
                        "showStats" (fn [uri] (.$broadcast $scope "show-stats" uri))))
     (.$watch "vm.user" (partial user-watch $scope $http))
-    (.$on "user-select" user-select)))
+    (.$on "user-select" (partial user-select $location))))

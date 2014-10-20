@@ -68,8 +68,6 @@
                         channels = R.map(R.rPartial(parseInt, 16), colorStrings),
                         percievedLuminance = 0.299 * channels[0] + 0.587 * channels[1] + 0.114 * channels[2];
 
-                    console.log(percievedLuminance);
-
                     return percievedLuminance < 128 ? "#FFF" : "#000";
                 }
 

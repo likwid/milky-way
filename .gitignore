@@ -1,3 +1,5 @@
 bower_components/
 npm-debug.log
 cljs/resources/
+build/
+node_modules/

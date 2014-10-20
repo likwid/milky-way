@@ -12,7 +12,7 @@
 
 (defn- assignRoute [provider route spec]
   (if (keyword? route)
-    (.otherwise provider spec)
+    (.otherwise provider (clj->js spec))
     (.when provider route (clj->js spec))))
 
 (ng/config [$routeProvider]
